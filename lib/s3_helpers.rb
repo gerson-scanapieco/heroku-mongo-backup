@@ -88,7 +88,7 @@ end
 
 
 begin
-  require 'fog'
+  require 'fog/aws'
 rescue LoadError
   #
   # There is no 'fog' in Gemfile
